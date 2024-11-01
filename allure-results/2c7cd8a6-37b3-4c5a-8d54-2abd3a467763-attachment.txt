@@ -1,0 +1,8 @@
+Clicked on Sign-Up button
+Entered Username: Herbert_Rodriguez60
+Entered First Name: Rigoberto
+Entered Last Name: Kertzmann
+Entered Email: Mary96@gmail.com
+Entered Password
+Entered Phone Number: 8866489095
+Clicked on Sign-Up button

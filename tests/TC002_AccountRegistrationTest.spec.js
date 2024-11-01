@@ -11,10 +11,10 @@ test("account_registration", async ({ page }) => {
     console.log('Clicked on Sign-Up button');
 
     const signUpPage = new SignUpPage(page);
-    
+
     const randomUsername = faker.internet.userName();
-    const randomFirstName = faker.name.firstName();
-    const randomLastName = faker.name.lastName();
+    const randomFirstName = faker.person.firstName();
+    const randomLastName = faker.person.lastName();
     const randomEmail = faker.internet.email();
     const randomPhoneNumber = `8866${faker.string.numeric(6)}`;
 
@@ -30,9 +30,6 @@ test("account_registration", async ({ page }) => {
     await signUpPage.enterEmail(randomEmail);
     console.log(`Entered Email: ${randomEmail}`);
 
-    await signUpPage.confirmEmail(randomEmail);
-    console.log(`Confirmed Email: ${randomEmail}`);
-
     await signUpPage.enterPassword("Abdultest@123");
     console.log('Entered Password');
 
@@ -41,5 +38,4 @@ test("account_registration", async ({ page }) => {
 
     await signUpPage.clickSignUp();
     console.log('Clicked on Sign-Up button');
-
 });

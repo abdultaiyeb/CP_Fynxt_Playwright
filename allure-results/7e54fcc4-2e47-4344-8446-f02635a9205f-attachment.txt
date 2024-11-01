@@ -1,0 +1,5 @@
+Clicked on Sign-Up button
+Entered Username: Buddy_Homenick
+Entered First Name: Shanny
+Entered Last Name: McCullough
+Entered Email: Nicole.Funk@yahoo.com

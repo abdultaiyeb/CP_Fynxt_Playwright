@@ -1,12 +1,11 @@
 class SignUpPage {
     constructor(page) {
         this.page = page;
-        this.usernameInput = "#Username"; 
+        this.usernameInput = "//input[@id='FirstName']"; 
         this.firstNameInput = "#FirstName"; 
         this.lastNameInput = "#LastName"; 
         this.emailInput = "#Email"; 
-        this.confirmEmailInput = "#ConfirmEmail"; 
-        this.passwordInput = "#Password"; 
+        this.passwordInput = "//input[@id='Password']"; 
         this.phoneInput = "#MobileNumber"; 
         this.signUpButton ="#btnCustomerSignup"; 
     }
@@ -27,9 +26,6 @@ class SignUpPage {
         await this.page.locator(this.emailInput).fill(email);
     }
 
-    async confirmEmail(confirmEmail) {
-        await this.page.locator(this.confirmEmailInput).fill(confirmEmail);
-    }
 
     async enterPassword(password) {
         await this.page.locator(this.passwordInput).fill(password);

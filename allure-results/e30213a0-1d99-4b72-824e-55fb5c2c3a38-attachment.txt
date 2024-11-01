@@ -1,0 +1,5 @@
+Clicked on Sign-Up button
+Entered Username: Bettye79
+Entered First Name: Karli
+Entered Last Name: Koch
+Entered Email: Jovany3@yahoo.com
