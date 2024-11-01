@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","34303","account_registration","chromium","Sat Nov 02 02:13:16 IST 2024","broken","Sat Nov 02 02:13:50 IST 2024","","TC002_AccountRegistrationTest.spec.js","",""
+"","12318","Verify login for invalid user","chromium","Sat Nov 02 02:12:36 IST 2024","passed","Sat Nov 02 02:12:49 IST 2024","","TC001_LoginTests.spec.js","",""
+"","18732","Verify login for valid user","chromium","Sat Nov 02 02:12:36 IST 2024","passed","Sat Nov 02 02:12:55 IST 2024","","TC001_LoginTests.spec.js","",""
+"","18308","createMT4Account","chromium","Sat Nov 02 02:12:36 IST 2024","passed","Sat Nov 02 02:12:55 IST 2024","","TC003_CreateMT4AccountTest.spec.js","",""

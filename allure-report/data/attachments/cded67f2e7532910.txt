@@ -1,0 +1,4 @@
+Entered username: Abdul12345
+Entered password
+Clicked on Sign-In button
+Dashboard heading text is correct: Dashboard 

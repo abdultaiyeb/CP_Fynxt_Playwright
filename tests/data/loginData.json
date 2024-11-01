@@ -1,0 +1,12 @@
+{
+    "validUser": {
+        "username": "Abdul12345",
+        "password": "Abdul@123",
+        "isValid": true
+    },
+    "invalidUser": {
+        "username": "Abdul12345678",
+        "password": "Abdul@123",
+        "isValid": false
+    }
+}
