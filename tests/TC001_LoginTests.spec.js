@@ -17,7 +17,7 @@ test('Verify login for valid user', async ({ page }) => {
     console.log('Entered password');
 
     await signinPage.clickSignIn();
-    console.log('Clicked on Sign-In button');
+    console.log('Clicked on Sign-In button.');
 
     const dashboardPage = new DashboardPage(page);
     const headingText = await dashboardPage.verifyDashboardHeading();
@@ -36,7 +36,7 @@ test('Verify login for invalid user', async ({ page }) => {
     console.log('Entered password');
 
     await signinPage.clickSignIn();
-    console.log('Clicked on Sign-In button');
+    console.log('Clicked on Sign-In button.');
 
     const isErrorVisible = await signinPage.isErrorVisible();
     expect(isErrorVisible).toBe(false);
